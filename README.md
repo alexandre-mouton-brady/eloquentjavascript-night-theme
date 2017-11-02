@@ -5,7 +5,7 @@ Because learning should be a pleasent experience night and day 😇
 
 ## What it actually looks like:
 
-[[https://github.com/alexandre-mouton-brady/eloquentjavascript-night-theme/screenshots/light.png|alt=light-theme]]
+[[https://raw.githubusercontent.com/alexandre-mouton-brady/eloquentjavascript-night-theme/master/screenshots/light.png|alt=light-theme]]
 
 Regular version
 

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "EloquentJS night theme",
+  "description":
+    "This extension inject some styles to bring a night theme feature to to the EloquentJS website for a better experience at night. Credit to https://www.flaticon.com/ for the icons.",
+  "version": "1.0",
+  "icons": {
+    "128": "light-bulb.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://eloquentjavascript.net/*",
+        "https://eloquentjavascript.net/*"
+      ],
+      "css": ["night.css"],
+      "js": ["night.js"]
+    }
+  ],
+  "permissions": [
+    "http://eloquentjavascript.net/**",
+    "https://eloquentjavascript.net/**"
+  ]
+}
